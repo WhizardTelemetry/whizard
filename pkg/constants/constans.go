@@ -42,6 +42,8 @@ const (
 
 	ServiceNameSuffix = "operated"
 
+	// DefaultContainerAnnotationKey is the annotation defining the default container of the pod.
+	LabelDefaultContainer = "kubectl.kubernetes.io/default-container"
 	LabelNameAppName      = "app.kubernetes.io/name"
 	LabelNameAppManagedBy = "app.kubernetes.io/managed-by"
 	LabelNameAppPartOf    = "app.kubernetes.io/part-of"
